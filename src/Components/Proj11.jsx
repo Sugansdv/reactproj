@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../assets/Css/GitHubProfile.css";
+import "../assets/Css/GithubProfile.css";
 
 const Proj11 = () => {
   const [username, setUsername] = useState("");
