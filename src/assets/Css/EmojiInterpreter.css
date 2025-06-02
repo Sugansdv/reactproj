@@ -1,0 +1,59 @@
+.emoji-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightpink;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+
+.emoji-input {
+  font-size: 2rem;
+  padding: 8px 15px;
+  border: 2px solid orangered;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.emoji-input:focus {
+  border-color: #ef6c00;
+}
+
+.meaning {
+  font-size: 1.2rem;
+  color: red;
+  font-weight: 600;
+  min-height: 30px;
+  margin-bottom: 25px;
+  min-height: 2em;
+}
+
+.emoji-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.emoji-item {
+  font-size: 2.5rem;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.emoji-item:hover,
+.emoji-item:focus {
+  background-color: coral;
+  transform: scale(1.2);
+  outline: none;
+}

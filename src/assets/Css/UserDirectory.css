@@ -1,0 +1,71 @@
+.directory-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+
+
+.loading {
+  font-size: 1.1rem;
+  color: #34495e;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.07);
+  transition: box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.user-info {
+  text-align: left;
+}
+
+.user-name {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 0 0 5px;
+  color: #34495e;
+}
+
+.user-email {
+  margin: 0 0 3px;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.user-location {
+  font-size: 0.9rem;
+  color: #95a5a6;
+}
